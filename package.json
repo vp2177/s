@@ -1,10 +1,19 @@
 {
     "scripts": {
-	"start": "",
-	"build": "",
-	"test": ""
+	"start": "astro dev",
+	"build": "astro build",
+	"test": "node --test"
     },
     "devDependencies": {
-	
+	"astro": "^5",
+	"@astrojs/react": "^4",
+	"typescript": "~5.9"
+    },
+    "dependencies": {
+	"helia": "*",
+	"webtorrent": "*"
+    },
+    "//deps": {
+	"ipfs-core": ""
     }
 }

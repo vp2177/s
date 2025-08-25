@@ -1,0 +1,17 @@
+<span class="indicator"><slot /></span>
+
+<style>
+  .indicator {
+	  width: 1lh;
+	  height: 1lh;
+	  background: AccentColor;
+	  opacity: 0;
+	  animation: fadeIn 1s;
+	}
+
+	@keyframes fadeIn {
+	  to {
+	    opacity: 1;
+	  }
+	}  
+</style>
