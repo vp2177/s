@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
-<?xml-stylesheet href="a.xsl"?>
+<?xml-stylesheet href="a.xsl" type="text/xsl"?>
 <items>
   <item>one</item>
-  <item>two</item>
+  <item>two <foo>bar</foo></item>
 </items>
