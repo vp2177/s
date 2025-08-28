@@ -2,18 +2,23 @@
     "scripts": {
 	"start": "astro dev",
 	"build": "astro build",
-	"test": "node --test"
+	"test": "node --test",
+	"format": "prettier --write .",
+	"format:check": "prettier --check ."
     },
     "devDependencies": {
 	"astro": "^5",
 	"@astrojs/react": "^4",
-	"typescript": "~5.9"
+	"prettier": "^3",
+	"typescript": "~5.9",
+	"@types/webtorrent": "*"
     },
     "dependencies": {
 	"helia": "*",
 	"webtorrent": "*"
     },
     "//deps": {
-	"ipfs-core": ""
+	"ipfs-core": "Deprecated",
+	"hypercore": "^11"
     }
 }

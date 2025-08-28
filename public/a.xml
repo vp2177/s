@@ -1,6 +1,7 @@
 <?xml version="1.0" ?>
 <?xml-stylesheet href="a.xsl" type="text/xsl"?>
-<items>
+<items xmlns:xi="http://www.w3.org/2001/XInclude">
   <item>one</item>
   <item>two <foo>bar</foo></item>
+  <xi:include href="b.xml" />
 </items>

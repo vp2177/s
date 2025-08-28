@@ -7,6 +7,7 @@
 	  <li><xsl:value-of select="."/></li>
 	</xsl:for-each>
       </ol>
+      <xsl:include href="b.xsl" />
     </html>
   </xsl:template>
 </xsl:stylesheet>
